@@ -12,3 +12,6 @@ codegen-units = 1
 debug = true
 
 [dependencies]
+goose = "0.17.2"
+goose-eggs = "0.5.1"
+tokio = { version = "1.33.0", features = ["macros", "rt-multi-thread"] }
